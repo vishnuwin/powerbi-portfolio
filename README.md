@@ -197,3 +197,63 @@ Even customers with higher credit scores show defaults. This suggests that credi
 This visual shows how many customers have defaulted before. A high count indicates that the company might be approving risky customers or needs better monitoring.
 - Loan Amount by Income
 Loan amounts do not increase consistently with income. This means some low-income customers received high loans. It highlights the need for stricter loan-to-income policies.
+## Summary report outlining key findings and business recommendations.
+## key findings
+The raw dataset contained fifty missing values in each three columns (Income,
+Credit_Score and Loan_Amount) which were filled with the mean values. A boxplot
+and IQR analysis were used to detect outliers, but none were found. The majority of
+customers are between 30-55 years; male customers show slightly higher market
+spending scores and engagement with marketing campaigns. Customer with higher
+income tend to have higher credit scores and lower default rates. A smaller group of
+customers with moderate income but high spending show signs of potential credit
+risk. Marketing spend and purchase frequency strongly affect sales. churn is
+influenced by purchase frequency targeted retention campaigns should focus on
+high-risk customers.
+About 15% of customer have previous defaults. Customers with loan amounts above
+7500 and credit scores below 450 are defaulting a high risk. 21 anomalous
+transactions were detected these should be investigated for potential fraud or data
+entry errors.thus monitoring anomalies helps to maintain data quqlity and financial
+controls. three seasonality distributions high (34%), medium (34%), low (32%). All
+three were distributed almost equally in the contribution of salaes volume.
+Linear regression model was developed to predict sales as the dependent variable
+and the predictors like marketing spend, seasonality, income, spending score. The
+mean squared error (MSE) was 752506081.5 indicating some variation between
+predicted and actual sales values.thus the marketing spend and seasonality play
+significant roles in influencing sales performance. 
+Spending score are spread across all range, but a higher frequency is observed
+between 60-100. Certain gender group show more active spending patterns,
+indicating stronger engagement with the brand. Low scores below 20 are relatively
+fewer, showing that only a small segment exhibits limited spending behaviour.
+The churn rate fluctuates across age groups, with notable spikes around ages
+20,30,50 and 60. Younger under 25 and older above 55 customers show higher
+churn tendencies. Middle aged groups 30-50 maintain relatively stable retention.
+The highest concentration of defaults is near a credit score of 590. Customers with
+scores above 700 rarely default, confirming strong financial reliability. Those below
+500 also show a few defaults, likely due to pre-screening before loan approval.
+## Business Recommendations
+Focus marketing and loyalty programmes on high income and high spending
+customers.use personalised offers to retain these profitable segments. Optimize marketing campaigns during seasonal peaks. Develop personalized retention
+strategies for risk management.
+Anomaly based decision support integrate sudden drop in sales, were Optimize
+marketing spend during months with higher sales potential.
+This visual identifies spikes in revenue, possibly due to seasonal effects or marketing
+campaigns. The smart narrative provides AI generated insights summarizing about
+these trends that sales showed periodic spikes in revenue across early 2024 and
+early 2025, possibly reflecting seasonal patterns or campaign effects. Monthly
+aggregation of sales showed seasonal peaks, indicating higher spending during
+certain months. Lin charts visualized the trend clearly helping identify periods of high
+revenue.
+Adjust stock and staff schedules for high oscillation months. Introduce small
+promotions during low months to stabilise demand. develop premium product lines
+for high income segments who show strong sales correlation.Tailor marketing campaigns by gender and spending tier to increase engagement.
+Introduce reward schemes to encourage medium spenders ro move into the high
+spending category. Use data driven insights to identify underperforming gender
+segments and promote customised offers.
+offer flexible, trend-based products or loyalty discounts for younger customers. Use
+targeted communication to win back older customers with retirement friendly offers
+or value bundles. Implement churn prediction models to proactively identify and
+retain high risk customers.
+Tighten approval criteria or increase interest rates for applicants in the 550-600
+credit score range. Offer financial education or credit buliding incentives to moderate
+risk customers. Continuously monitor repayment behaviour for early warning signs in
+mid range credit segments.
