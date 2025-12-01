@@ -2,6 +2,7 @@
 ## dataset used 
 - CSV file <a href= "https://github.com/vishnuwin/powerbi-portfolio/blob/main/cleaned_data.csv">click here</a>
 - Phyton pdf <a href= "python.pdf">click here</a>
+- Power BI pdf <a href= "power BI dashboard.pdf">click here</a>
 ## Data collection
 On final inspection, the data contains five hundred rows and fourteen columns
 representing comprehensive customer behaviour and financial information.
