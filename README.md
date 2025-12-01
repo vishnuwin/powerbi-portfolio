@@ -68,6 +68,7 @@ Q3 – Q1. Q1 is the 25th percentile (lower quartile) and Q3 is the 75th percent
 - Out off 500 rows, 95 was removed as outliers. The cleaned dataset now
 contains 405 reliable records. Outliers present in income, sales,
 marketing_spend.
+<img width="746" height="181" alt="Screenshot 2025-10-15 224906" src="https://github.com/user-attachments/assets/7bcc7832-c671-414e-857f-aedbb2ee5ad3" />
 - This cleaning step ensured accurate summary statistics for better visualization
 clarity in more reliable.
 - Variables like income, sales, and marketing_spend had extreme values
