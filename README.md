@@ -163,3 +163,15 @@ This line chart helps identify months where sales were unexpectedly high or low.
 This breakdown shows how much revenue is generated during different seasonal categories. Interestingly, High and Medium seasons generate almost equal sales, meaning the business performs quite consistently across the year.
 - Seasonality Distribution (Pie Chart)
 The pie chart shows how many months fall into each season type. Medium season months occur slightly more often. This helps the business predict revenue cycles and plan inventory or promotions accordingly.
+## Sales & Marketing Insights
+This page provides a clear overview of how marketing efforts relate to sales performance. It helps identify whether marketing spend is actually generating the expected business results.
+<img width="963" height="542" alt="Sales   Marketing Insights" src="https://github.com/user-attachments/assets/04e2775d-5117-424f-9386-33fba5c0f136" />
+
+- Marketing Spend by Year
+This chart shows how much the company invested in marketing across different years. For example, a significant spike in 2024 indicates a strong marketing push, while 2025 shows a more moderate spend. This helps the business understand where major budgets were allocated.
+- Sales vs Marketing
+Here, sales and marketing are compared side-by-side. Even though marketing spend increased drastically in 2024, sales also rose, suggesting that the campaigns were effective. In 2025, sales remain steady even though marketing spend decreased, showing improved efficiency.
+- Purchase Frequency
+This visual highlights how often customers made purchases month-by-month. Peaks in months like June and December indicate high-traffic periods, possibly driven by promotions, festivals, or seasonal demand.
+- Customer Demographic
+This bar chart shows the age and gender distribution of customers. Most customers fall within the 25–50 age range. Males slightly dominate the customer base, but both genders show strong participation. This helps businesses target marketing campaigns more precisely.
