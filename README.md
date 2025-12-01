@@ -57,6 +57,8 @@ replace values. Perhape double checked in pandas script coding
 df.isnull().sum(). And replaced fifty each null values with mean by coding
 df.fillna(df[['Income','Credit_Score','Loan_Amount']]. mean(),inplace=True)
 df.head()
+<img width="390" height="330" alt="Screenshot 2025-10-13 191121" src="https://github.com/user-attachments/assets/473a451e-2147-442f-aa20-70f1b87734f2" />
+
 - To remove duplicates run the code df.duplicated().sum() and no duplicates
 were found.
 - Outliers are the data points that lie far away from the majority of values. IQR =
