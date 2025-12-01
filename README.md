@@ -97,6 +97,7 @@ A correlation heatmap highlighted strong correlations between 'Age', 'Income',
 suggesting these features are key business drivers. Weak correlations between
 credit related and spending features indicates distinct customer behaviours for risk and revenue.
 <img width="655" height="425" alt="Screenshot 2025-12-01 124917" src="https://github.com/user-attachments/assets/76469dcd-b715-4d73-bee8-0512cf18e72e" />
+
 The relationship between seasonality and sales where analysed using bar plot
 sns.barplot(x=’seasonality’, y=’sales’, data=df). This reveals seasonality impact on
 revenue. The relationship between gender and income where spoted using boxplot
