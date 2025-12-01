@@ -175,3 +175,25 @@ Here, sales and marketing are compared side-by-side. Even though marketing spend
 This visual highlights how often customers made purchases month-by-month. Peaks in months like June and December indicate high-traffic periods, possibly driven by promotions, festivals, or seasonal demand.
 - Customer Demographic
 This bar chart shows the age and gender distribution of customers. Most customers fall within the 25–50 age range. Males slightly dominate the customer base, but both genders show strong participation. This helps businesses target marketing campaigns more precisely.
+## Sales & Revenue Analysis
+This page focuses on understanding overall sales performance and how customer income and spending behaviour relate to revenue.
+<img width="967" height="540" alt="sales and revenue analysis" src="https://github.com/user-attachments/assets/801b21bf-fee9-4fe6-a7ee-e68a231c1f0b" />
+
+- Sales Trend
+Sales fluctuate over the year with clear peaks in months like May 2024 and dips in months like July 2024 or May 2025. This trend helps businesses prepare for slow periods and maximise high-sales months.
+- Income vs Sales
+The data shows no strong correlation — customers with higher income don’t necessarily spend more. This means marketing strategies should target behaviour, not income.
+- Spending Score vs Sales
+Again, spending score does not strongly drive sales. A customer might have a high score but still make fewer purchases. This shows that multiple factors (offers, product interest, timing) influence sales.
+## Customer Risk & Loan Default Analysis
+This page helps the company understand customer risk levels and identify patterns in loan default behaviour.
+<img width="970" height="545" alt="customer risk and loan default analysis" src="https://github.com/user-attachments/assets/be70c3a9-7ab9-41f3-a4c7-d5d920929058" />
+
+- Purchase Frequency by Churn
+Customers who churn generally show significantly lower purchase frequency. This means lack of engagement is a strong indicator of churn — a valuable insight for retention strategies.
+- Credit Score vs Default
+Even customers with higher credit scores show defaults. This suggests that credit score alone is not enough to judge risk. Additional checks (income stability, behaviour history) would improve risk assessment.
+- Previous Defaults
+This visual shows how many customers have defaulted before. A high count indicates that the company might be approving risky customers or needs better monitoring.
+- Loan Amount by Income
+Loan amounts do not increase consistently with income. This means some low-income customers received high loans. It highlights the need for stricter loan-to-income policies.
