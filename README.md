@@ -140,7 +140,7 @@ like spending score, purchase frequency or seasonality.
 ## Visualization using Power BI
 ## Customer Behaviour & Financial Dataset
 <img width="970" height="542" alt="Customer Behaviour   Financial Insights" src="https://github.com/user-attachments/assets/d69a76f5-7132-4521-b70d-357b7f2b4b8a" />
-1. Total Sales, Total Customers & Spending Score
+* Total Sales, Total Customers & Spending Score
 These KPIs give a quick snapshot of business health — total sales of 27M from 500 customers, with an average spending score of around 50. This helps understand overall customer value.
 2. Churn Rate & Default Rate
 Both rates are high in this dataset (shown as 100%), suggesting that either:
