@@ -1,6 +1,6 @@
 # Customer Behaviour and financial Dataset
 ## dataset used 
--EXCE <a href= "https://github.com/vishnuwin/powerbi-portfolio/blob/main/cleaned_data.csv">click here</a>
+- CSV file <a href= "https://github.com/vishnuwin/powerbi-portfolio/blob/main/cleaned_data.csv">click here</a>
 ## Data collection
 On final inspection, the data contains five hundred rows and fourteen columns
 representing comprehensive customer behaviour and financial information.
