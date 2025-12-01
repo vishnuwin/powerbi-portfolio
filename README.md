@@ -101,8 +101,8 @@ credit related and spending features indicates distinct customer behaviours for 
 The relationship between seasonality and sales where analysed using bar plot
 sns.barplot(x=’seasonality’, y=’sales’, data=df). This reveals seasonality impact on
 revenue. The relationship between gender and income where spoted using boxplot
-sns.boxplot(x=’gender’, y=’income’, data=df). This reveals gender wise income
-comparison.
+sns.boxplot(x=’gender’, y=’income’, data=df). This reveals gender wise income comparison.
+
 <img width="556" height="481" alt="Screenshot 2025-10-28 173637" src="https://github.com/user-attachments/assets/84322fc5-888a-4a57-9bf9-1b77258205a7" />
 
 Analyse which customers are likely to leave the company based on their income,
