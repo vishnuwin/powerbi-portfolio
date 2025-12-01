@@ -145,8 +145,8 @@ like spending score, purchase frequency or seasonality.
 These KPIs give a quick snapshot of business health — total sales of 27M from 500 customers, with an average spending score of around 50. This helps understand overall customer value.
 - Churn Rate & Default Rate
 Both rates are high in this dataset (shown as 100%), suggesting that either:
- - the dataset is simulated, or
- - the company is facing serious customer retention and loan repayment issues.
+  - the dataset is simulated, or
+  - the company is facing serious customer retention and loan repayment issues.
 - Age Group Distribution
 This bar chart shows credit score variation across ages. The data appears scattered, indicating that age does not have a strong influence on credit score or financial behaviour.
 - Income vs Spending Score (Scatter Plot)
