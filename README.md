@@ -114,7 +114,9 @@ Linea regression with the independent variable (x) as customer income level and
 marketing spend and dependent variable as sales total revenue for each customer.
 Train test split 80% of the data used for training , 20% for testing. This ensures fair
 performance evaluation on unseen data.
+
 <img width="625" height="390" alt="Screenshot 2025-12-01 130243" src="https://github.com/user-attachments/assets/154d2496-c2b0-4792-8843-67c3da3b0f7c" />
+
 lin_model fit a straight line that best explains the relationship between features and
 sales. for the prediction and evaluation mean squared error (MSE) measures
 prediction error lower=better. Here MSE=759,564,757 indicates large error between
