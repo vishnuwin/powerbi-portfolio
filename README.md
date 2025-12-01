@@ -39,3 +39,19 @@ the customer defaulted on a loan; measures financial risk.
 - Seasonality_date-this is a temporal type (01/01/2020 - 31/12/2024) date of
 transaction or sales event used for time series anomalie decetion and trend
 analysis.
+## Data cleaning
+- Uploaded raw dataset, on Power BI go to Home, Get Data, CSV file Select
+the dataset and click Load.
+- The dataset contains 500 rows and 14 columns with attributes including
+Customer_ID, Age, Gender, Income, Spending_Score, Credit_Score,
+Loan_Amount, Previous_Defaults, Marketing_Spend, Purchase_Frequency,
+Seasonality, Sales, Customer_Churn, Defaulted.
+- The raw dataset contained fifty missing values in each three columns
+(Income, Credit_Score and Loan_Amount) which were filled with the mean
+values. In power query editor right clicking missing value columns and select
+replace values. Perhape double checked in pandas script coding
+df.isnull().sum().
+Column name Missing values Filled mean value
+Income 50 84398.055556
+Credit_Score 50 573.411111
+Loan_Amount 50 28456.928889
