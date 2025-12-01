@@ -103,6 +103,16 @@ sns.barplot(x=’seasonality’, y=’sales’, data=df). This reveals seasonali
 revenue. The relationship between gender and income where spoted using boxplot
 sns.boxplot(x=’gender’, y=’income’, data=df). This reveals gender wise income
 comparison.
+<img width="556" height="481" alt="Screenshot 2025-10-28 173637" src="https://github.com/user-attachments/assets/84322fc5-888a-4a57-9bf9-1b77258205a7" />
+
+Analyse which customers are likely to leave the company based on their income,
+purchase frequency and spending behaviour and to visualize churn patterns before
+buliding a prediction model. The first step count plot sns.countplot (x='Customer_
+Churn', data=df) plt.title("Customer Churn Distribution (0 = Active, 1 = Churned)")
+thus it indicated the moderate churn rate (24%) which mathes the statistic mean
+(0.2419) from the dataset. The median income of churned customers is lower than
+that of active customers. This means low income customers are more likely to churn
+they may be more price censitive or less loyal.
 ## Predictive model
 <img width="614" height="336" alt="Screenshot 2025-12-01 130155" src="https://github.com/user-attachments/assets/0fefb46a-8466-4cab-ae16-4eccdd922f39" />
 
