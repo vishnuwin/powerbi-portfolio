@@ -1,7 +1,7 @@
 # Customer Behaviour and financial Dataset
 ## dataset used 
 - CSV file <a href= "https://github.com/vishnuwin/powerbi-portfolio/blob/main/cleaned_data.csv">click here</a>
-- Phyton pdf <a herf= "https://github.com/vishnuwin/powerbi-portfolio/blob/main/python.pdf">click here</a>
+- Phyton pdf <a herf= "python.pdf">click here</a>
 ## Data collection
 On final inspection, the data contains five hundred rows and fourteen columns
 representing comprehensive customer behaviour and financial information.
