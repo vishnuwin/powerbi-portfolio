@@ -1,4 +1,6 @@
 # Customer Behaviour and financial Dataset
+## dataset used 
+-EXCE <a href= "https://github.com/vishnuwin/powerbi-portfolio/blob/main/cleaned_data.csv">click here</a>
 ## Data collection
 On final inspection, the data contains five hundred rows and fourteen columns
 representing comprehensive customer behaviour and financial information.
@@ -50,8 +52,23 @@ Seasonality, Sales, Customer_Churn, Defaulted.
 (Income, Credit_Score and Loan_Amount) which were filled with the mean
 values. In power query editor right clicking missing value columns and select
 replace values. Perhape double checked in pandas script coding
-df.isnull().sum().
-Column name Missing values Filled mean value
-Income 50 84398.055556
-Credit_Score 50 573.411111
-Loan_Amount 50 28456.928889
+df.isnull().sum(). And replaced fifty each null values with mean by coding
+df.fillna(df[['Income','Credit_Score','Loan_Amount']]. mean(),inplace=True)
+df.head()
+- To remove duplicates run the code df.duplicated().sum() and no duplicates
+were found.
+- Outliers are the data points that lie far away from the majority of values. IQR =
+Q3 – Q1. Q1 is the 25th percentile (lower quartile) and Q3 is the 75th percentile
+(upper quartile). Acceptable range is Value < Q1 – 1.5 * IQR or Value > Q3 +
+1.5 * IQR.
+- Out off 500 rows, 95 was removed as outliers. The cleaned dataset now
+contains 405 reliable records. Outliers present in income, sales,
+marketing_spend.
+- This cleaning step ensured accurate summary statistics for better visualization
+clarity in more reliable.
+- Variables like income, sales, and marketing_spend had extreme values
+beyond the whiskers(outliers). After removing outliers using IQR, the boxplots
+became tighter and more symmetric, showing a more consistent distribution.
+- After removing the dots, I replot boxplots, no isolated points for those columns
+anymore thus this is the proof that outliers were successfully cleaned.now the
+dataset is cleaned and ready for the analysis.
