@@ -24,3 +24,18 @@ of past loan defaults; range 0-2 vibes customer reliability and financial risk.
 - Marketing_spend-amount spent on marketing to that segment; (range 1,024-
 19,990) indicates business investment. It is a continuous numeric with an
 integer data type.
+- Purchase_Frequency-integer data type numerical discrete variable shows
+range between 1-29 number of purchases made in a given period; measures
+engagement or loyalty.
+- Seasonality-indicates the categorical type high, medium and low. seasonal
+context for data; used to analyse time-based trends and patterns.
+- Sales-range value of 5,203-99,835. Total sales revenue per customer;
+continuous numeric key business performance indicator.
+- Customer_Churn-integer data type of binary variable (0 active, 1 churned)
+indicates if a customer stop doing business, much helpful for retention
+analysis.
+- Defaulted- integer data type of binary variable (0 No, 1 Yes) shows whether
+the customer defaulted on a loan; measures financial risk.
+- Seasonality_date-this is a temporal type (01/01/2020 - 31/12/2024) date of
+transaction or sales event used for time series anomalie decetion and trend
+analysis.
