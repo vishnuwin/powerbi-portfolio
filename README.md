@@ -95,10 +95,34 @@ wider ranges, indicating customer diversity.
 A correlation heatmap highlighted strong correlations between 'Age', 'Income',
 'Spending_Score', 'Credit_Score', 'Loan_Amount', 'Marketing_Spend', and 'Sales',
 suggesting these features are key business drivers. Weak correlations between
-credit related and spending features indicates distinct customer behaviours for risk
-and revenue.
-
+credit related and spending features indicates distinct customer behaviours for risk and revenue.
 <img width="655" height="425" alt="Screenshot 2025-12-01 124917" src="https://github.com/user-attachments/assets/76469dcd-b715-4d73-bee8-0512cf18e72e" />
+The relationship between seasonality and sales where analysed using bar plot
+sns.barplot(x=’seasonality’, y=’sales’, data=df). This reveals seasonality impact on
+revenue. The relationship between gender and income where spoted using boxplot
+sns.boxplot(x=’gender’, y=’income’, data=df). This reveals gender wise income
+comparison.
+## Predictive model
+<img width="614" height="336" alt="Screenshot 2025-12-01 130155" src="https://github.com/user-attachments/assets/0fefb46a-8466-4cab-ae16-4eccdd922f39" />
 
+The basic logistic regression provides a strating baseline for churn prediction slightly
+55.6% accuracy better than random guessing but not strong. Weighted score
+indicates moderate prediction balance. Precision for churners (1) 0.26 is the model
+struggles to correctly identify chruners.
+Linea regression with the independent variable (x) as customer income level and
+marketing spend and dependent variable as sales total revenue for each customer.
+Train test split 80% of the data used for training , 20% for testing. This ensures fair
+performance evaluation on unseen data.
+<img width="625" height="390" alt="Screenshot 2025-12-01 130243" src="https://github.com/user-attachments/assets/154d2496-c2b0-4792-8843-67c3da3b0f7c" />
+lin_model fit a straight line that best explains the relationship between features and
+sales. for the prediction and evaluation mean squared error (MSE) measures
+prediction error lower=better. Here MSE=759,564,757 indicates large error between
+actual and predicated sales. R2
+ (-0.034) Score explains how much variance in sales
+is explained by income and marketing spend. Here model performs worse than a
+simple average model. Hence the model did not perform well suggesting that income
+and marketing spend alone cannot accurately predict sales. The relationship
+between these variables and sales may be non-linear or influenced by other features
+like spending score, purchase frequency or seasonality. 
 
 
