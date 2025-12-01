@@ -91,11 +91,13 @@ were plotted for numeric columns such as 'Age', 'Income', 'Spending_Score',
 showed normal or slightly right skewed distributions, while income and sales had
 wider ranges, indicating customer diversity.
 <img width="655" height="394" alt="Screenshot 2025-12-01 124403" src="https://github.com/user-attachments/assets/76b2140a-f5ad-4344-b320-fa770a16985c" />
+
 A correlation heatmap highlighted strong correlations between 'Age', 'Income',
 'Spending_Score', 'Credit_Score', 'Loan_Amount', 'Marketing_Spend', and 'Sales',
 suggesting these features are key business drivers. Weak correlations between
 credit related and spending features indicates distinct customer behaviours for risk
 and revenue.
+
 <img width="655" height="425" alt="Screenshot 2025-12-01 124917" src="https://github.com/user-attachments/assets/76469dcd-b715-4d73-bee8-0512cf18e72e" />
 
 
