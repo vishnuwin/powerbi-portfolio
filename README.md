@@ -78,3 +78,25 @@ became tighter and more symmetric, showing a more consistent distribution.
 - After removing the dots, I replot boxplots, no isolated points for those columns
 anymore thus this is the proof that outliers were successfully cleaned.now the
 dataset is cleaned and ready for the analysis.
+## Exploratory Data Analysis (EDA)
+After removing outliers, the dataset contained 405 records. Descriptive statistics
+revealed that the average customer age was 44, the mean income is 84398, the
+spending score is 51, the credit score is 573, the loan amount is 2845, and the
+average sales is 54. Thus, the dataset shows balanced spread across demographic
+and financial metrics, making it ready for visual exploration.
+<img width="1072" height="269" alt="Screenshot 2025-12-01 124648" src="https://github.com/user-attachments/assets/eaa82aef-deee-44a6-9c8e-f36c80ced344" />
+Histograms and KDE plots to show how each variable is distributed. Histograms
+were plotted for numeric columns such as 'Age', 'Income', 'Spending_Score',
+'Credit_Score', 'Loan_Amount', 'Marketing_Spend', and 'Sales'. Most features
+showed normal or slightly right skewed distributions, while income and sales had
+wider ranges, indicating customer diversity.
+<img width="655" height="394" alt="Screenshot 2025-12-01 124403" src="https://github.com/user-attachments/assets/76b2140a-f5ad-4344-b320-fa770a16985c" />
+A correlation heatmap highlighted strong correlations between 'Age', 'Income',
+'Spending_Score', 'Credit_Score', 'Loan_Amount', 'Marketing_Spend', and 'Sales',
+suggesting these features are key business drivers. Weak correlations between
+credit related and spending features indicates distinct customer behaviours for risk
+and revenue.
+<img width="655" height="425" alt="Screenshot 2025-12-01 124917" src="https://github.com/user-attachments/assets/76469dcd-b715-4d73-bee8-0512cf18e72e" />
+
+
+
