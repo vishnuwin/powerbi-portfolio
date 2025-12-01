@@ -140,16 +140,18 @@ like spending score, purchase frequency or seasonality.
 ## Visualization using Power BI
 ## Customer Behaviour & Financial Dataset
 <img width="970" height="542" alt="Customer Behaviour   Financial Insights" src="https://github.com/user-attachments/assets/d69a76f5-7132-4521-b70d-357b7f2b4b8a" />
-* Total Sales, Total Customers & Spending Score
+
+- Total Sales, Total Customers & Spending Score
 These KPIs give a quick snapshot of business health — total sales of 27M from 500 customers, with an average spending score of around 50. This helps understand overall customer value.
-2. Churn Rate & Default Rate
+- Churn Rate & Default Rate
 Both rates are high in this dataset (shown as 100%), suggesting that either:
-the dataset is simulated, or the company is facing serious customer retention and loan repayment issues.
-3. Age Group Distribution
+ - the dataset is simulated, or
+ - the company is facing serious customer retention and loan repayment issues.
+- Age Group Distribution
 This bar chart shows credit score variation across ages. The data appears scattered, indicating that age does not have a strong influence on credit score or financial behaviour.
-4. Income vs Spending Score (Scatter Plot)
+- Income vs Spending Score (Scatter Plot)
 The point indicates that customers with higher income might not always have a high spending score. It shows that income does not directly predict buying behaviour.
-5. Sales by Gender
+- Sales by Gender
 Sales are distributed fairly evenly between males and females, meaning buying power is shared almost equally across genders.
 
 
