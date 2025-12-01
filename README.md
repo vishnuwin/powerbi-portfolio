@@ -153,5 +153,13 @@ This bar chart shows credit score variation across ages. The data appears scatte
 The point indicates that customers with higher income might not always have a high spending score. It shows that income does not directly predict buying behaviour.
 - Sales by Gender
 Sales are distributed fairly evenly between males and females, meaning buying power is shared almost equally across genders.
+## Seasonality & Anomaly Detection
+This page focuses on understanding how sales change over time and identifying unusual patterns that need attention.
+<img width="930" height="526" alt="Screenshot 2025-12-01 113038" src="https://github.com/user-attachments/assets/80e283c6-9a84-4f57-a311-9897a93ab666" />
 
-
+- Sales with Anomalies
+This line chart helps identify months where sales were unexpectedly high or low. For example, a dip in July 2024 or May 2025 could signal external issues (like low demand or stock shortages), while spikes highlight successful seasons or campaigns.
+- Sales by Seasonality (High / Medium / Low)
+This breakdown shows how much revenue is generated during different seasonal categories. Interestingly, High and Medium seasons generate almost equal sales, meaning the business performs quite consistently across the year.
+- Seasonality Distribution (Pie Chart)
+The pie chart shows how many months fall into each season type. Medium season months occur slightly more often. This helps the business predict revenue cycles and plan inventory or promotions accordingly.
